@@ -28,10 +28,10 @@ const App = () => {
             </blockquote>
           </Card.Body>
 
-          <Card.Title id="author"> <h3 className="mb-0">&mdash; Quote By</h3> </Card.Title>
+          <Card.Title id="author"> <h3>&mdash; Quote By</h3> </Card.Title>
 
           <Card.Footer>
-              <Row className="flex-md-row-reverse">
+              <Row className="flex-md-row-reverse my-2">
                 <Col md={6} className="d-grid d-md-flex justify-content-md-end">
                   <a href="https://getbootstrap.com/docs/5.1/examples/heroes/" target="_blank" rel="noopener noreferrer" className="btn btn-lg coral" id="new-quote"> {Rotate} New </a>
 
