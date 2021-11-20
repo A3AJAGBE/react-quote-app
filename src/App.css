@@ -1,0 +1,23 @@
+#App-Container {
+  background-color: #ff6f61;
+  color: #fafafa;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#App-Card {
+  background-color: #34568b;
+  border-radius: 15px;
+}
+
+#new-quote {
+  background-color: #ff6f61;
+  color: #fafafa;
+}
+
+#new-quote:hover {
+  background-color: #fafafa;
+  color: #ff6f61;
+}
