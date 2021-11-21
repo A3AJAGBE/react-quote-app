@@ -34,7 +34,7 @@ const App = () => {
 
   return (
     <Container fluid id="App-Container">
-      <div className="Quote-Div text-center w-100">
+      <div className="Quote-Div text-center w-100" id="quote-box">
         <h1 className="display-4 fw-bold mb-4">A3AJAGBE Quote App</h1>
 
         <Card id="App-Card" className="col-lg-6 mx-auto">
