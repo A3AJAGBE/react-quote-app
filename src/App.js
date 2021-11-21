@@ -2,7 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faSpinner } from '@fortawesome/free-solid-svg-icons';
+import { faSpinner, faQuoteRight, faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
@@ -29,22 +29,24 @@ const App = () => {
 
   const Twitter = <FontAwesomeIcon icon={faTwitter} />
   const Rotate = <FontAwesomeIcon icon={faSpinner} />
+  const QuoteRight = <FontAwesomeIcon icon={faQuoteRight} />
+  const QuoteLeft = <FontAwesomeIcon icon={faQuoteLeft} />
 
   return (
     <Container fluid id="App-Container">
-      <div className="Quote-Div text-center">
+      <div className="Quote-Div text-center w-100">
         <h1 className="display-4 fw-bold mb-4">A3AJAGBE Quote App</h1>
 
         <Card id="App-Card" className="col-lg-6 mx-auto">
           <Card.Body>
-            <blockquote className="blockquote mb-0" id="text">
-              <p className="lead mb-2 fs-3">
-                  {quotes.text}
+            <blockquote className="blockquote mb-0 text-wrap" id="text">
+              <p className="mb-2 fs-1">
+                  {QuoteLeft} {quotes.text} {QuoteRight}
               </p>
             </blockquote>
           </Card.Body>
 
-          <Card.Title id="author"> <h3>&mdash; {quotes.author}</h3> </Card.Title>
+          <Card.Title id="author" className="lead fs-4"> &mdash; {quotes.author}</Card.Title>
 
           <Card.Footer>
               <Row className="flex-md-row-reverse my-2">
