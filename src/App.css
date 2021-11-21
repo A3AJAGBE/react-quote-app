@@ -15,6 +15,7 @@
 #new-quote {
   background-color: #ff6f61;
   color: #fafafa;
+  border-color: #ff6f61;
 }
 
 #new-quote:hover {
