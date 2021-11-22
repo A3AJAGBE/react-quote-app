@@ -58,7 +58,7 @@ const App = () => {
                   <hr />
                 </Col>
                 <Col className="d-grid d-md-flex">
-                  <a href={`https://twitter.com/intent/tweet?text="${quotes.text}" - ${quotes.author} via https://pc-quotes-api.herokuapp.com/`} target="_blank" rel="noopener noreferrer" className="btn btn-lg btn-info" id="tweet-quote">{Twitter} Tweet</a>
+                  <a href={`https://twitter.com/intent/tweet?text="${quotes.text}" - ${quotes.author} via https://a3ajagbe.github.io/react-quote-app/`} target="_blank" rel="noopener noreferrer" className="btn btn-lg btn-info" id="tweet-quote">{Twitter} Tweet</a>
                 </Col>
               </Row>
           </Card.Footer>
